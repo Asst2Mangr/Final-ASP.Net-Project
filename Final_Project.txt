@@ -16,7 +16,7 @@ Requirements:
 		Utilize bootstrap to create a unique layout for your site
 		-(This should not look like the book sites)
 	8.	Create at least 1 new route that takes a new variable (e.g. the route slug, the name, etc, but the id does not count)
-	9.	Utilize specific ActionResults to set return types for your controllers 	
+		Utilize specific ActionResults to set return types for your controllers 	
 
 
 Rubric Points:

@@ -1,0 +1,55 @@
+Final Project
+
+
+Description
+
+I will allow groups of up to two for this assignment. Complete the following requirements, while regularly pushing your changes to github. Turn in the github link as your submission.
+
+Requirements:
+
+	1.	Create a new MVC web app
+	2.	Build a DbContext class for your web app
+	3.	Create one or more tables through your context class
+	4.	Seed your table(s) with initial data
+	5.	Create at least one page that lists the data in the database AND allows users to filter the data based on conditions
+	6.	Create pages that will allow the user to add/edit data from the database
+	7.	Utilize bootstrap to create a unique layout for your site
+		-(This should not look like the book sites)
+	8.	Create at least 1 new route that takes a new variable (e.g. the route slug, the name, etc, but the id does not count)
+	9.	Utilize specific ActionResults to set return types for your controllers 	
+
+
+Rubric Points:
+	Communication/Professionalism
+		-Comments
+			1pt: Do they give a high level summary?
+			1pt: Are they accurate?
+		-Organization
+			1pt: Do the filenames reflect the content of the files?
+			1pt: Is the code readable?
+
+	Total:  __/4
+	
+	Tech Skills
+		-Does it work?
+			1pt: The main program/page runs/launches correctly initially
+			2pt: Additional pages/components run/launch
+			1pt: The program/page avoids both visual and logical errors
+	
+	Total:  __/4
+
+	Critical Thinking
+		-Program is flexible
+			-2pt: The program/pages are modular, and components can be swapped without issue
+			-2pt: The GitHub commits show incremental progress
+
+	Total:  __/4
+	
+	
+Total rubric points: __/12
+
+Percent of requirements met: __/100%
+
+Total score: (__*__%)/12
+	-The total score will take your rubric points multiplied by your requirements met
+	-This means that scoring 12 rubric points but only completing 50% of the requirements will result in 6/12 (12*50%)/12.

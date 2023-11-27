@@ -11,13 +11,13 @@ namespace Project4.Controllers
         {
             context = ctx;
         }
-        public IActionResult Index()
+        public ViewResult Index()
         {
             return View();
         }
 
         [HttpGet]
-        public IActionResult Add()
+        public ViewResult Add()
         {
             ViewBag.Action = "Add";
             ViewBag.Deck = context.Decks.OrderBy(d => d.DeckName).ToList();
@@ -25,7 +25,7 @@ namespace Project4.Controllers
         }
 
         [HttpGet]
-        public IActionResult Edit(int id)
+        public ViewResult Edit(int id)
         {
             ViewBag.Action = "Edit";
             ViewBag.Deck = context.Decks.OrderBy(d => d.DeckName).ToList();
@@ -54,14 +54,14 @@ namespace Project4.Controllers
         }
 
         [HttpGet]
-        public IActionResult Delete(int id)
+        public ViewResult Delete(int id)
         {
             var deck = context.Decks.Find(id);
             return View(deck);
         }
 
         [HttpPost]
-        public IActionResult Delete(Deck deck)
+        public RedirectToActionResult Delete(Deck deck)
         {
             context.Decks.Remove(deck);
             context.SaveChanges();

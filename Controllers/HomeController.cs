@@ -13,7 +13,7 @@ namespace Project4.Controllers
         {
             context = ctx;
         }
-        public IActionResult Index()
+        public ViewResult Index()
         {
             var Decks = context.Decks
                 .OrderBy(d => d.DeckName)

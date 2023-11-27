@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Project2.Models;
+using Project4.Models;
 
-namespace Project2.Controllers
+namespace Project4.Controllers
 {
     public class DeckController : Controller
     {

@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Project4.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<DeckContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DeckContext")));
 
 var app = builder.Build();
 

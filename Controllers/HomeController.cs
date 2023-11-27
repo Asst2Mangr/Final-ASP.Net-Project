@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Project2.Models;
+using Project4.Models;
 
-namespace Project2.Controllers
+namespace Project4.Controllers
 {
     public class HomeController : Controller
     {

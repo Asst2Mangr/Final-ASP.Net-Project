@@ -7,13 +7,13 @@ I will allow groups of up to two for this assignment. Complete the following req
 
 Requirements:
 
-	1.	Create a new MVC web app
-	2.	Build a DbContext class for your web app
-	3.	Create one or more tables through your context class
-	4.	Seed your table(s) with initial data
+		Create a new MVC web app
+		Build a DbContext class for your web app
+		Create one or more tables through your context class
+		Seed your table(s) with initial data
 	5.	Create at least one page that lists the data in the database AND allows users to filter the data based on conditions
-	6.	Create pages that will allow the user to add/edit data from the database
-	7.	Utilize bootstrap to create a unique layout for your site
+		Create pages that will allow the user to add/edit data from the database
+		Utilize bootstrap to create a unique layout for your site
 		-(This should not look like the book sites)
 	8.	Create at least 1 new route that takes a new variable (e.g. the route slug, the name, etc, but the id does not count)
 	9.	Utilize specific ActionResults to set return types for your controllers 	

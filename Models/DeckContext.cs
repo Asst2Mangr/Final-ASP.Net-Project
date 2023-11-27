@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Project2.Models
+namespace Project4.Models
 {
     public class DeckContext : DbContext
     {

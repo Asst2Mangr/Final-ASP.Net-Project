@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
-namespace Project2.Models
+namespace Project4.Models
 {
     public class Deck
     {

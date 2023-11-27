@@ -16,6 +16,7 @@ namespace Project4.Controllers
             return View();
         }
 
+        //add method allowing user to add deck to the database
         [HttpGet]
         public ViewResult Add()
         {
@@ -52,7 +53,7 @@ namespace Project4.Controllers
                 return View(deck);
             }
         }
-
+        //delete methods allowing user to delete decks 
         [HttpGet]
         public ViewResult Delete(int id)
         {

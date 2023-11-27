@@ -9,7 +9,7 @@ namespace Project4.Models
         { }
 
         public DbSet<Deck> Decks { get; set; }
-
+        //seed data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Deck>().HasData(

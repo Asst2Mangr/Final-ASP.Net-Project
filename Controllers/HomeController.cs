@@ -13,6 +13,7 @@ namespace Project4.Controllers
         {
             context = ctx;
         }
+        //putting results on the page
         public ViewResult Index()
         {
             var Decks = context.Decks

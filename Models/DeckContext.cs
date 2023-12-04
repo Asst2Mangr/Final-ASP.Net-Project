@@ -30,6 +30,18 @@ namespace Project4.Models
                      DeckID = 3,
                      DeckName = "another one",
                      DeckCount = 100
+                },
+                new Deck
+                {
+                    DeckID = 4,
+                    DeckName = "New Deck, Who Dis?",
+                    DeckCount = 55
+                },
+                new Deck
+                {
+                    DeckID = 5,
+                    DeckName = "I cannot think of anymore deck examples",
+                    DeckCount = 42
                 }
                 );
 
